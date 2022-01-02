@@ -25,7 +25,6 @@ public class GrowthCalculator
         
         //OUTPUTTING FINAL RESULTS
         Console.WriteLine("Grand Total Pages = " + grandTotal);
-        
         double dailyAverage = grandTotal / 365;
         Console.WriteLine(dailyAverage);
     }
