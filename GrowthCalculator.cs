@@ -11,7 +11,7 @@ public class GrowthCalculator
         
         //IGNORE
         double currentAmount = firstDayAmount;
-        double grandTotal = currentNum;
+        double grandTotal = currentAmount;
         
         //ALGORITHM        
         for(int i = 0; i < forHowManyDays; i++)
